@@ -1,0 +1,370 @@
+body{
+    background-color: #f3f3f3 !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+label{
+    font-size: 20px !important;
+}
+
+input{
+    height: 40px !important;
+}
+
+h1{
+    font-size: 4rem !important;
+    line-height: 1.35 !important;
+}
+
+h2{
+    font-size: 2.8rem !important;
+}
+
+.open-account-btn{
+    background-color: #5ec576 !important;
+    border-radius: 50px !important;
+    width: 150px;
+    height: 40px;
+    color: black !important;
+    transition: all 0.3s !important;
+}
+
+.logo{
+    margin-left: 50px;
+    transition: all 0.3s !important;
+}
+
+.custom-container{
+    margin-top: 200px;
+    min-height: 70vh;
+}
+
+.highlight::after{
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    transform: scale(1.07, 1.05) skewX(-15deg);
+    background-image: linear-gradient(to top left, #39b385, #9be15d);
+}
+
+.nav-link{
+    transition: all 0.3s !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.learn-more{
+    font-size: 1.4rem;
+    color: #5ec576;
+    border-bottom: 1px solid currentColor;
+}
+
+.learn-more:hover{
+    text-decoration: none;
+    color: #5ec576;
+}
+
+.features-paragraph{
+    color: #5ec576;
+    font-size: 1.4rem;
+}
+
+
+.feautres-header-container{
+    margin-top: 150px;
+    max-width: 950px !important;
+}
+
+.features-grid-container{
+    margin-top: 100px;
+    width: 90% !important;
+}
+
+.featured-image{
+    filter: blur(20px);
+}
+
+.icons{
+    align-items: center;
+    justify-content: center;
+    background-color: #5ec5763a;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.icon{
+    font-size: 30px;
+    color: #5ec576;
+}
+
+.instant-transfers{
+    background-color: #ffcb03 !important;
+    border-radius: 50px !important;
+}
+
+.active-tab{
+    margin-bottom: 10px;
+}
+
+.instant-loans{
+    background-color: #5ec576 !important;
+    border-radius: 50px !important;
+}
+
+.instant-closing{
+    background-color: #ff585f !important;
+    border-radius: 50px !important;
+}
+
+.operation-description-container{
+    background-color: white;
+    margin-top: -20px !important;
+}
+
+.operations-container{
+    display: none !important;
+}
+
+.slider{
+    max-width: 100rem;
+    height: 25rem;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+}
+
+.text::before{
+    content: "\201C";
+    position: absolute;
+    top: -3.7rem;
+    left: -3.8rem;
+    line-height: 1;
+    font-size: 10rem;
+    font-family: inherit;
+    color: #5ec576;
+    z-index: -1;
+}
+
+.text{
+    width: 55%;
+    position: relative;
+}
+
+.arrow-left{
+    font-size: 35px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    position:absolute;
+    top: 50px;
+}
+
+.arrow-right{
+    font-size: 35px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    position:absolute;
+    right: 0rem;
+    top: 50px;
+}
+
+.users{
+    border-radius: 50px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.dot{
+     background-color: #888 ;
+     height: 0.7rem ;
+     width: 0.5rem ;
+     border-radius: 50%;
+     border: none;
+     opacity: 0.5;
+}
+
+.active-dot{
+    opacity: 1;
+}
+
+.outro{
+    margin-top: 100px;
+    background-color: #37383d;
+    border-bottom: 1px solid #444;
+    height: 45vh;
+}
+
+.outro-header{
+    margin-top: 100px;
+    font-size: 2.5rem;
+    width: 40%;
+}
+
+.outro-open-account{
+    background-color: #5ec576 !important;
+    border-radius: 50px !important;
+    width: 450px;
+    height: 60px;
+    font-size: 25px !important;
+    margin-top: 50px;
+}
+
+.list-item{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;
+}
+ .about{
+    background-color: #37383d;
+    height: 45vh;
+}
+
+.my-name{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.modal-header{
+    border-bottom: none !important;
+}
+
+.modal-title{
+    font-size: 40px;
+}
+
+.close-btn{
+    font-size: 40px !important;
+    position: absolute;
+    top: -10px !important;
+    right: 0 !important;
+}
+
+.section{
+    transition: transform 1s, opacity 1s;
+}
+
+.section-hidden{
+    opacity: 0;
+    transform: translateY(8rem) !important;
+}
+
+img{
+    transition: filter 1s !important;
+}
+
+@media only screen and (max-width: 768px){
+    .custom-container, .feautres-header-container, .operations-description{
+        margin-top: 50px;
+    }
+
+    .hero-image{
+        margin-top: 50px;
+        height: 300px; 
+        width: 100% !important;
+    }
+
+    .custom-main-container-column, .feautres-header-container, .description-column{
+        text-align: center;
+    }
+
+    .icons{
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .operation-description-container{
+        margin-top: -50px !important;
+    }
+
+    .instant-transfers, .instant-loans, .instant-closing{
+        border-radius: 0px !important;
+    }  
+
+    .user{
+        margin-top: 20px !important;
+    }
+
+    .text::before{
+        position: relative;
+        top: 80px;
+    }
+
+    .arrow-left{
+        position: relative;
+        top: 700px;
+        left: 25%;
+    }
+
+    .arrow-right{
+        position: relative;
+        top: 700px;
+        left: 40%;
+    }
+
+    .outro-header{
+        font-size: 1.5rem;
+        width: 90%;
+        text-align: center;
+    }
+
+    .outro-open-account{
+        width: 350px;
+        margin-top: 20px;
+    }
+    
+    .first-item{
+        margin-top: 50px !important;
+    }
+
+    .list-flex{
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .about{
+        height: 70vh;
+    }
+
+    .list-item{
+        margin-top: 0px;
+    }
+
+    .slide{
+        margin-top: -100px;
+        width: 110%;
+    }
+    
+    .slider{
+        height: 50rem;
+    }
+
+    .modal-dialog{
+        max-width: 100% !important;
+    }
+}
